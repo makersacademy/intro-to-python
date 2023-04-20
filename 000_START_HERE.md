@@ -9,6 +9,8 @@ ideas will apply to any language.
 
 ## How do I get started?
 
+_If you like videos, follow this [replit video guide](#link-to-video) to get set up._
+
 [Open up the replit space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
 
 Click the 'Fork' button on the right. This will open up the

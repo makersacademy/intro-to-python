@@ -9,23 +9,26 @@ ideas will apply to any language.
 
 ## How do I get started?
 
-Click the 'Fork' button to the right. This will open up the
+[Open up the replit space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
+
+Click the 'Fork' button on the right. This will open up the
 programming interface you will use to learn.
 
 If you're confident using your own local development setup
-and you have Python 3 installed, you can clone this
-repository and work through it that way. 
+and you have Python 3 installed, you can instead clone this
+repository and work through it that way. However only do
+this if you are sure you know what you're doing.
 
 ## How do I use the replit interface?
 
 The interface is made by an organisation called replit. We
-will call it the replit IDE.
+will call it the IDE.
 
 You will need to engage with three parts of it:
 
-* The file panel on your left, working top to bottom.
-* The code panel (that's this one) where you'll read and
-  write code.
+* The file panel on your left, working from this file downwards.
+* The code panel (if you're on replit now, that's this one)
+  where you'll read and write code.
 * The shell panel to the right, where you'll run code.
 
 To set up and learn how to use the interface, please follow
@@ -39,9 +42,14 @@ readability. I would recommend you use one of them:
 * [Makers Reader Theme (Light)](https://replit.com/theme/@neoeno/makers-reader)
 * [Makers Reader Theme (Dark)](https://replit.com/theme/@neoeno/makers-reader-dark)
 
+When you're done setting it up, it should look something like this:
+
+![A screenshot of the replit interface with the files on the left, the code in the middle, and the shell on the right. It shows good contrast as the Makers theme is being used.](images/replit-interface.png)
+
 ## How to read the material
 
-The learning materials are code. They look a bit like this:
+The learning materials are files of code. They look a bit
+like this:
 
 ```python
 def identity(num):
@@ -56,7 +64,13 @@ learning how to create.
 That last line starting with a `#` is a comment. We will
 talk you through the ideas behind the code using comments.
 
-You should read through each file top to bottom.
+You should work through each file sequentially, starting
+with `010_comments.py`. You should work through each file
+top to bottom.
+
+At the end of the material there are four optional files.
+You don't need to complete these to be ready for the
+assessment, but they might help.
 
 ## What if I would prefer to watch than to read?
 

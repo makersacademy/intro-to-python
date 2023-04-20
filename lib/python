@@ -1,0 +1,14 @@
+#!/bin/bash
+
+BLUE='\033[1;34m'
+NC='\033[0m'
+
+if [[ "$@" == *"-i"* ]] || [[ "$@" == *"--interactive"* ]] || [[ "$@" == "" ]]; then
+    echo -e "${BLUE}You are running Python in interactive mode."
+    echo "To run another program after this one, run:"
+    echo -e "  ${NC}exit()${BLUE}"
+    echo -e "Do the same thing if you run into weird errors.${NC}"
+    echo
+fi
+
+$HOME/$REPL_SLUG/venv/bin/python $@

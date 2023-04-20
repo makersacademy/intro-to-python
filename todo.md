@@ -1,0 +1,39 @@
+- [x] 000_START_HERE.py
+- [x] 011_identity.py
+- [x] 012_add_one.py
+- [x] 013_add_two.py
+- [x] 014_multiply_numbers.py
+- [x] 015_add_numbers.py
+- [x] 016_operators.py
+- [x] 017_expressions.py
+- [x] 018_statements.py
+- [x] 019_state.py
+- [x] 020_state_tables.py
+- [x] 021_two_step.py
+- [x] 022_strings.py
+- [x] 023_string_indexing.py
+- [x] 024_string_length.py
+- [x] 025_string_concatenation.py
+- [x] 026_ifs.py
+- [x] 027_comparison.py
+- [x] 028_logic.py
+- [x] 029_lists.py
+- [x] 030_list_indexing.py
+- [x] 031_list_modification.py
+- [x] 032_loops.py
+- [x] 033_summarising.py
+- [x] 034_mapping.py
+- [x] 035_dicts.py
+- [x] 036_dict_operations.py
+- [x] 037_exercise_1.py
+- [x] 038_exercise_2.py
+- [x] 039_exercise_3.py
+- [x] 040_exercise_4.py
+
+Next:
+
+- [x] Make replit theme
+- [ ] Make setup video
+- [ ] Make videos running through
+- [ ] Transfer to Github
+- [ ] Transfer to replit

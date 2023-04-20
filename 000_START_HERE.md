@@ -10,7 +10,9 @@ ideas will apply to any language.
 ## How do I get started?
 
 > **Note**  
-> If you like videos, follow this [replit video guide](#link-to-video) to get set up.
+> If you like videos, follow this [replit video
+> guide](#link-to-video) to get set up. Otherwise, keep
+> reading below.
 
 [Open up the replit space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
 

@@ -89,6 +89,3 @@ pattern = "**/*.py"
 
 [languages.python3.languageServer]
 start = "pylsp"
-
-[deployment]
-run = ["sh", "-c", "python3 main.py"]

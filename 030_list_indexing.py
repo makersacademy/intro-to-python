@@ -21,17 +21,17 @@ print("")
 print("Function: get_first_item")
 
 def get_first_item(the_list):
-    # Return the first item of the list
-    pass
+  # Return the first item of the list
+  pass
 
 check_that_these_are_equal(
-    get_first_item(["a", "b", "c", "d", "e"]),
-    "a"
+  get_first_item(["a", "b", "c", "d", "e"]),
+  "a"
 )
 
 check_that_these_are_equal(
-    get_first_item([34, 44, 54, 64]),
-    34
+  get_first_item([34, 44, 54, 64]),
+  34
 )
 
 # == Exercise Two ==
@@ -40,17 +40,17 @@ print("")
 print("Function: get_last_item")
 
 def get_last_item(the_list):
-    # Return the last item of the list
-    pass
+  # Return the last item of the list
+  pass
 
 check_that_these_are_equal(
-    get_last_item(["a", "b", "c", "d", "e"]),
-    "e"
+  get_last_item(["a", "b", "c", "d", "e"]),
+  "e"
 )
 
 check_that_these_are_equal(
-    get_last_item([34, 44, 54, 64]),
-    64
+  get_last_item([34, 44, 54, 64]),
+  64
 )
 
 # == Exercise Three ==
@@ -59,17 +59,17 @@ print("")
 print("Function: get_nth_item")
 
 def get_nth_item(the_list, n):
-    # Return the item of the list at the specified index
-    pass
+  # Return the item of the list at the specified index
+  pass
 
 check_that_these_are_equal(
-    get_nth_item(["a", "b", "c", "d", "e"], 3),
-    "d"
+  get_nth_item(["a", "b", "c", "d", "e"], 3),
+  "d"
 )
 
 check_that_these_are_equal(
-    get_nth_item([34, 44, 54, 64], 1),
-    44
+  get_nth_item([34, 44, 54, 64], 1),
+  44
 )
 
 # == Exercise Four ==
@@ -78,18 +78,18 @@ print("")
 print("Function: get_items_between_four_and_eight")
 
 def get_items_between_four_and_eight(the_list):
-    # Return the section of the list between indexes zero
-    # and two
-    pass
+  # Return the section of the list between indexes zero
+  # and two
+  pass
 
 check_that_these_are_equal(
-    get_items_between_four_and_eight(["a", "b", "c", "d", "e"]),
-    ["a", "b"]
+  get_items_between_four_and_eight(["a", "b", "c", "d", "e"]),
+  ["a", "b"]
 )
 
 check_that_these_are_equal(
-    get_items_between_four_and_eight([34, 44, 54, 64]),
-    [34, 44]
+  get_items_between_four_and_eight([34, 44, 54, 64]),
+  [34, 44]
 )
 
 # When you're done, move on to 031_list_modification.py

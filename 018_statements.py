@@ -32,9 +32,11 @@ print("---")
 # We can refer to things in the state of the program by
 # name.
 #
-# These names - `my_favourite_number` - are typically called
-# 'variables'. This is because can vary them. Look at this
-# program:
+# These names — `my_favourite_number` — are typically called
+# 'variables'. This is because the names stay the same, but
+# the values assigned to them can vary.
+#
+# Look at this program:
 
 todays_day = 19
 todays_day = 20

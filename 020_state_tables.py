@@ -7,13 +7,11 @@ b = 20
 a = b
 print(f"a is {a}")
 print(f"b is {b}")
-print("---")
 
-# We're going to go through it line by line and explain
+# Python programs execute line by line, starting at the top.
+
+# We're going to go this code line by line and I'll explain
 # what's happening.
-
-# Firstly, note that Python programs execute line-by-line.
-# So we start at line one:
 
 # Initially the state is empty.
 
@@ -41,10 +39,14 @@ print("---")
 # Python executes the line:
 #   a = b
 #
-# Python looks up the value of `b` in the expression on the right.
+# Python looks up the value of `b` in the expression on the
+# right.
+#
 # It sees that it is `20`.
+#
 # It assigns the value `20` to the variable `a`
-# Note: `b` does not change.
+#
+# Note that `b` does not change.
 #
 # The state is now:
 # | Name | Value |

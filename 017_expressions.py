@@ -5,8 +5,8 @@
 
 added = 2 + 3
 
-# Is this an expression? Not quite. It contains an
-# expression.
+# Is this an expression? Not quite. It does contain an
+# expression though.
 
 # The expression part is this:
 
@@ -48,21 +48,25 @@ added = 2 + 3
 #
 # @TASK: Try this using `python` in the shell:
 
-2 + (3 * 4)
+(2 + 3) * 4
+
+# As you can see, we can use brackets to control the order
+# the expressions are evaluated.
 
 # That handy "`python` in the shell" thing is called the
 # Python REPL. REPL stands for Read, Evaluate, and Print
-# Loop. It reads the code, evaluates the expression, prints
-# the result, and then does that forever in a loop.
+# Loop. It reads the code you type in, evaluates the
+# expression, prints the result, and then does that forever
+# in a loop.
 #
 # You can use it to find out what different expressions
 # evaluate to, and generally play around with Python to see
-# what lines of code do.
+# what it does.
 
 # I'm going to reintroduce the `add_one` function:
 
 def add_one(num):
-    return num + 1
+  return num + 1
 
 # Here are some more expressions:
 
@@ -76,9 +80,9 @@ add_one(4) * 3      # Evaluates to 15
 # can combine data, operators, and function calls into some
 # very advanced expressions.
 
-# @TASK: If you want to try those expressions yourself, run:
+# @TASK: Try those expressions yourself. Run:
 #
-# python -i 017_expressions.py
+#   python -i 017_expressions.py
 #
 # And then type in some of the above expressions.
 #

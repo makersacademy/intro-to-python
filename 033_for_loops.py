@@ -5,7 +5,7 @@
 # It looks like this:
 
 for letter in ["a", "b", "c"]:
-    print(f"This letter is {letter}")
+  print(f"This letter is {letter}")
 
 # @TASK: Run this file and see what it does.
 
@@ -20,7 +20,7 @@ for letter in ["a", "b", "c"]:
 
 def print_numbers_in_range():
   for number in range(0, 10):
-      print(f"This number is {number}")
+    print(f"This number is {number}")
 
 # `range` more or less creates a list of the numbers from
 # its first parameter to one below its last parameter. So:
@@ -32,8 +32,8 @@ def print_numbers_in_range():
 def print_numbers_in_range_with_a_while():
   number = 0
   while number < 10:
-      print(f"This number is {number}")
-      number = number + 1
+    print(f"This number is {number}")
+    number = number + 1
 
 # The `for` and `range` version is a bit more concise.
 

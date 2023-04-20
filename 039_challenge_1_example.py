@@ -34,52 +34,52 @@ example_numbers = [1, 2, 3, -2, -2, 2, None, -3, 4, 4, None, 3, 3, 2, 2, 1]
 # the other functions together to create the graph.
 # This will give you an idea of the flow of the program.
 def generate_frequency_graph(numbers):
-    integers = get_only_integers(numbers)
-    positive_integers = convert_negatives_to_positives(integers)
-    number_frequency = calc_frequency_of_numbers(positive_integers)
-    graph = format_graph(number_frequency)
-    return graph
+  integers = get_only_integers(numbers)
+  positive_integers = convert_negatives_to_positives(integers)
+  number_frequency = calc_frequency_of_numbers(positive_integers)
+  graph = format_graph(number_frequency)
+  return graph
 
 # Here we'll use filtering to get rid of the None values
 def get_only_integers(numbers):
-    integers = []
-    for number in numbers:
-        if number != None:
-            integers.append(number)
-    return integers
+  integers = []
+  for number in numbers:
+    if number != None:
+      integers.append(number)
+  return integers
 
 # Here we'll use mapping to convert negative numbers to
 # positive numbers
 def convert_negatives_to_positives(numbers):
-    positive_integers = []
-    for number in numbers:
-        if number < 0:
-            # Note that a negative number multiplied by -1
-            # will be its positive equivalent
-            positive_integers.append(number * -1)
-        else:
-            positive_integers.append(number)
-    return positive_integers
+  positive_integers = []
+  for number in numbers:
+    if number < 0:
+      # Note that a negative number multiplied by -1
+      # will be its positive equivalent
+      positive_integers.append(number * -1)
+    else:
+      positive_integers.append(number)
+  return positive_integers
 
 # Here we'll use summarising to create a graph of how
 # frequently each number shows up
 def calc_frequency_of_numbers(numbers):
-    number_frequency = {}
-    for number in numbers:
-        if number not in number_frequency:
-            number_frequency[number] = 1
-        else:
-            number_frequency[number] += 1
-    return number_frequency
+  number_frequency = {}
+  for number in numbers:
+    if number not in number_frequency:
+      number_frequency[number] = 1
+    else:
+      number_frequency[number] += 1
+  return number_frequency
 
 # Here we'll use mapping to format the graph
 def format_graph(number_frequency):
-    graph = ""
-    for number in number_frequency:
-        # Note the cool use of 'string multiplication' here!
-        # 'x' * 3 will give you 'xxx'
-        graph += f"{number}: {'x' * number_frequency[number]}\n"
-    return graph
+  graph = ""
+  for number in number_frequency:
+    # Note the cool use of 'string multiplication' here!
+    # 'x' * 3 will give you 'xxx'
+    graph += f"{number}: {'x' * number_frequency[number]}\n"
+  return graph
 
 # Now let's use it!
 print(generate_frequency_graph(example_numbers))

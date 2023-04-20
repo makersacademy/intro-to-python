@@ -56,18 +56,18 @@ print("")
 print("Function: greet")
 
 def greet(name):
-    # Return the string "Hello, Kay!" where "Kay" is the
-    # name provided
-    pass
+	# Return the string "Hello, Kay!" where "Kay" is the
+	# name provided
+	pass
 
 check_that_these_are_equal(
-    greet("Chuang-tzu"),
-    "Hello, Chuang-tzu!"
+	greet("Chuang-tzu"),
+	"Hello, Chuang-tzu!"
 )
 
 check_that_these_are_equal(
-    greet("Crab"),
-    "Hello, Crab!"
+	greet("Crab"),
+	"Hello, Crab!"
 )
 
 # When you're done, move on to 026_ifs.py

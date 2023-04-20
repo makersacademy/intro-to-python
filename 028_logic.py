@@ -21,12 +21,12 @@ from lib.helpers import check_that_these_are_equal
 # Consider this function:
 
 def starts_with_x_or_y(the_str):
-    first_letter = the_str[0]
-    #                      VV look at this!
-    if first_letter == "x" or first_letter == "y":
-        return "It does!"
-    else:
-        return "It does not."
+  first_letter = the_str[0]
+  #                      VV look at this!
+  if first_letter == "x" or first_letter == "y":
+      return "It does!"
+  else:
+      return "It does not."
 
 # That `or` operator says "evaluate to true if the condition
 # on the left, or on the right, or both evaluate to true".
@@ -45,7 +45,7 @@ print("")
 print("Function: a_or_b")
 
 def a_or_b(a, b):
-    return a or b
+  return a or b
 
 check_that_these_are_equal(a_or_b(True, True), True)
 check_that_these_are_equal(a_or_b(True, False), True)
@@ -58,8 +58,8 @@ print("")
 print("Function: a_and_b")
 
 def a_and_b(a, b):
-    # return a ?? b
-    pass
+  # return a ?? b
+  pass
 
 check_that_these_are_equal(a_and_b(True, True), True)
 check_that_these_are_equal(a_and_b(True, False), False)
@@ -74,8 +74,8 @@ print("Function: not_a")
 # Note that this operator only takes one value. The operator
 # goes first, and the value second.
 def not_a(a):
-    # return ?? a
-    pass
+  # return ?? a
+  pass
 
 check_that_these_are_equal(not_a(True), False)
 check_that_these_are_equal(not_a(False), True)

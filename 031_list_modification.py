@@ -78,13 +78,13 @@ print("")
 print("Function: append_item_to_list")
 
 def append_item_to_list(the_list, item):
-    the_list.append(item)
-    return the_list
+  the_list.append(item)
+  return the_list
 
 check_that_these_are_equal(
-    append_item_to_list(['a', 'b'], 'c'), ['a', 'b', 'c'])
+  append_item_to_list(['a', 'b'], 'c'), ['a', 'b', 'c'])
 check_that_these_are_equal(
-    append_item_to_list([3, 1], 6), [3, 1, 6])
+  append_item_to_list([3, 1], 6), [3, 1, 6])
 
 # == Exercise One ==
 
@@ -92,13 +92,13 @@ print("")
 print("Function: remove_item_from_list")
 
 def remove_item_from_list(the_list, item):
-    # ...
-    return the_list
+  # ...
+  return the_list
 
 check_that_these_are_equal(
-    remove_item_from_list(['a', 'b'], 'b'), ['a'])
+  remove_item_from_list(['a', 'b'], 'b'), ['a'])
 check_that_these_are_equal(
-    remove_item_from_list([3, 1], 3), [1])
+  remove_item_from_list([3, 1], 3), [1])
 
 # == Exercise Two ==
 
@@ -106,12 +106,12 @@ print("")
 print("Function: count_items_in_list")
 
 def count_items_in_list(the_list, item):
-    return # ...
+  return # ...
 
 check_that_these_are_equal(
-    count_items_in_list(['a', 'b', 'a'], 'a'), 2)
+  count_items_in_list(['a', 'b', 'a'], 'a'), 2)
 check_that_these_are_equal(
-    count_items_in_list([4, 1, 4, 4], 4), 3)
+  count_items_in_list([4, 1, 4, 4], 4), 3)
 
 # == Exercise Three ==
 
@@ -119,12 +119,12 @@ print("")
 print("Function: get_index_of_item")
 
 def get_index_of_item(the_list, item):
-    return # ...
+  return # ...
 
 check_that_these_are_equal(
-    get_index_of_item(['a', 'b', 'c'], 'b'), 1)
+  get_index_of_item(['a', 'b', 'c'], 'b'), 1)
 check_that_these_are_equal(
-    get_index_of_item([33, 44, 55], 55), 2)
+  get_index_of_item([33, 44, 55], 55), 2)
 
 # == Exercise Four ==
 
@@ -132,13 +132,13 @@ print("")
 print("Function: reverse_list")
 
 def reverse_list(the_list):
-    # ...
-    return the_list
+  # ...
+  return the_list
 
 check_that_these_are_equal(
-    reverse_list(['a', 'b', 'c']), ['c', 'b', 'a'])
+  reverse_list(['a', 'b', 'c']), ['c', 'b', 'a'])
 check_that_these_are_equal(
-    reverse_list([33, 44, 55]), [55, 44, 33])
+  reverse_list([33, 44, 55]), [55, 44, 33])
 
 # == Exercise Five ==
 
@@ -147,11 +147,11 @@ print("Function: list_length")
 
 # Note — it's the same as for strings!
 def list_length(list):
-    return # ...
+  return # ...
 
 check_that_these_are_equal(
-    list_length(['a', 'b', 'c']), 3)
+  list_length(['a', 'b', 'c']), 3)
 check_that_these_are_equal(
-    list_length([33, 44]), 2)
+  list_length([33, 44]), 2)
 
 # When you're done, move on to 032_while_loops.py

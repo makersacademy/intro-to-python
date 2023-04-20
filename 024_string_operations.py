@@ -79,14 +79,14 @@ print("Function: uppercase")
 # Search for 'python make string uppercase'
 
 def make_uppercase(string):
-    # Return the string in uppercase
-    pass
+  # Return the string in uppercase
+  pass
 
 check_that_these_are_equal(
-    make_uppercase("hello"), "HELLO")
+  make_uppercase("hello"), "HELLO")
 
 check_that_these_are_equal(
-    make_uppercase("World"), "WORLD")
+  make_uppercase("World"), "WORLD")
 
 # == Exercise Two ==
 
@@ -96,14 +96,14 @@ print("Function: lowercase")
 # Search for 'python make string lowercase'
 
 def make_lowercase(string):
-    # Return the string in lowercase
-    pass
+  # Return the string in lowercase
+  pass
 
 check_that_these_are_equal(
-    make_lowercase("HELLO"), "hello")
+  make_lowercase("HELLO"), "hello")
 
 check_that_these_are_equal(
-    make_lowercase("World"), "world")
+  make_lowercase("World"), "world")
 
 # == Exercise Three ==
 
@@ -113,14 +113,14 @@ print("Function: strip_whitespace")
 # Search for 'python remove whitespace from string'
 
 def strip_whitespace(string):
-    # Return the string with any whitespace removed from
-    # the start and end
-    pass
+  # Return the string with any whitespace removed from
+  # the start and end
+  pass
 
 check_that_these_are_equal(
-    strip_whitespace("hello "), "hello")
+  strip_whitespace("hello "), "hello")
 
 check_that_these_are_equal(
-    strip_whitespace(" hello world "), "hello world")
+  strip_whitespace(" hello world "), "hello world")
 
 # When you're done, move on to 025_string_concatenation.py

@@ -6,9 +6,9 @@ from lib.helpers import check_that_these_are_equal
 
 my_name = "Kay"
 if my_name == "Kay":
-    print("Hello, Kay!")
+  print("Hello, Kay!")
 else:
-    print("Hello!")
+  print("Hello!")
 
 # The `if` is part of a category of programming tools known
 # as 'control flow'. These are tools that control the flow
@@ -22,8 +22,8 @@ else:
 
 i = 0
 while i < 10:
-    print(f"The number is now {i}")
-    i = i + 1
+  print(f"The number is now {i}")
+  i = i + 1
 
 # @TASK: run this program and see what it does.
 
@@ -41,12 +41,12 @@ print("")
 print("Function: add_cats_repeatedly")
 
 def add_cats_repeatedly(word_list, count):
-    # ...
-    return word_list
+  # ...
+  return word_list
 
 check_that_these_are_equal(
-    add_cats_repeatedly([], 3), ['cats', 'cats', 'cats'])
+  add_cats_repeatedly([], 3), ['cats', 'cats', 'cats'])
 check_that_these_are_equal(
-    add_cats_repeatedly(['dogs'], 2), ['dogs', 'cats', 'cats'])
+  add_cats_repeatedly(['dogs'], 2), ['dogs', 'cats', 'cats'])
 
 # When you're done, move on to 033_for_loops.py

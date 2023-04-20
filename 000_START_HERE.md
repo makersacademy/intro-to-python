@@ -57,8 +57,8 @@ The learning materials are files of code. They look a bit
 like this:
 
 ```python
-def identity(num):
-    return num
+def just_return_it(num):
+  return num
 
 # This is a function. A function is a reusable block of code.
 ```
@@ -85,5 +85,6 @@ each file.
 
 ## I have some feedback about the material
 
-[You can give us feedback
+We would receive it with gratitude. [You can give us
+feedback
 here.](https://airtable.com/shrDOnkLFDkRiOHmU?prefill_Repository=IntroToProgramming)

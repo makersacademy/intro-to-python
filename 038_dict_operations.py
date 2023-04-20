@@ -27,15 +27,15 @@ letter_counts = {}
 # string:
 
 for letter in text:
-    # We'll check if the letter is already in our dictionary
-    # of counts. We can do this using the `in` operator.
-    if letter in letter_counts:
-        # If it is, we'll increment the count for that letter:
-        letter_counts[letter] = letter_counts[letter] + 1
-    else:
-        # If it isn't, we'll add it to the dictionary with a
-        # count of 1:
-        letter_counts[letter] = 1
+  # We'll check if the letter is already in our dictionary
+  # of counts. We can do this using the `in` operator.
+  if letter in letter_counts:
+    # If it is, we'll increment the count for that letter:
+    letter_counts[letter] = letter_counts[letter] + 1
+  else:
+    # If it isn't, we'll add it to the dictionary with a
+    # count of 1:
+    letter_counts[letter] = 1
 
 # Let's print out the dictionary to see what we've got:
 print(letter_counts)
@@ -46,7 +46,7 @@ print(letter_counts)
 
 # letter_counts = {}
 # for letter in text:
-#     letter_counts[letter] = letter_counts[letter] + 1
+#   letter_counts[letter] = letter_counts[letter] + 1
 
 # In the assignment above, our right hand expression tries
 # to access the value for a key that has not been added yet.
@@ -65,16 +65,16 @@ print("Function: count_words_by_length")
 # Since there are two words of length 3, etc.
 
 def count_words_by_length(words):
-    pass
+  pass
 
 check_that_these_are_equal(
-    count_words_by_length(["hat", "cat", "I", "bird"]),
-    {3: 2, 1: 1, 4: 1}
+  count_words_by_length(["hat", "cat", "I", "bird"]),
+  {3: 2, 1: 1, 4: 1}
 )
 
 check_that_these_are_equal(
-    count_words_by_length(["four", "four", "four", "one"]),
-    {4: 3, 3: 1}
+  count_words_by_length(["four", "four", "four", "one"]),
+  {4: 3, 3: 1}
 )
 
 # Once you're done, move on to 039_challenge_1_example.py

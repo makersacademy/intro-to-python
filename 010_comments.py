@@ -54,20 +54,23 @@
 # * Expressions and statements (the building blocks of
 #   programs)
 # * Strings (letters and words)
-# * Conditionals (ifs)
+# * Conditionals (ifs and elses)
 # * Lists (sequences of items)
-# * Loops (fors)
-# * Dicts (pairs of items)
+# * Loops (whiles and fors)
+# * Dictionaries (pairs of items)
 #
-# Each section will finish with a few exercises. We will
-# finish with some extra tricky exercises for you to test
-# your skills.
+# You will find exercises throughout the material,
+# signposted with @TASK. We will finish the material with
+# some extra tricky exercises for you to test your skills.
 #
-# By the way — these lines starting with the `#` key?
-# They're called comments. They don't get executed by the
-# program. You can create one yourself if you like.
+# By the way — these lines starting with the `#` character?
+# They're called comments. They don't get run by Python —
+# they're just for me to talk to you. You can create one
+# yourself if you like.
 
 # Type your name as a comment on the next line.
 
-# Now open up `011_identity.py` and get started with some
+# Hint: if you're on a Mac, type opt + 3 to get a #
+
+# Now open up 011_identity.py and get started with some
 # real code!

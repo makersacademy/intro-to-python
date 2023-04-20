@@ -14,11 +14,11 @@ from lib.helpers import check_that_these_are_equal
 # work:
 
 lines = [
-    "My King,",
-    "I need another five years.",
-    "Then your crab will be ready.",
-    "Sincerely,",
-    "Chuang-tzu"
+  "My King,",
+  "I need another five years.",
+  "Then your crab will be ready.",
+  "Sincerely,",
+  "Chuang-tzu"
 ]
 
 text = "" # This is called the accumulator variable
@@ -26,9 +26,9 @@ text = "" # This is called the accumulator variable
           # It starts off blank.
 
 for line in lines: # We go through lines item by item
-    # In this loop, `line` is the individual line
-    text = text + line # We append the line to our text
-    text = text + "\n" # We add an `\n`, which is a new line
+  # In this loop, `line` is the individual line
+  text = text + line # We append the line to our text
+  text = text + "\n" # We add an `\n`, which is a new line
 
 print(text)
 
@@ -52,11 +52,11 @@ print("Function: add_up_numbers")
 
 # Add up all the numbers in the list
 def add_up_numbers(numbers):
-    pass
+  pass
 
 check_that_these_are_equal(
-    add_up_numbers([1, 2, 3, 4]), 10)
+  add_up_numbers([1, 2, 3, 4]), 10)
 check_that_these_are_equal(
-    add_up_numbers([2, 3, 4, 5]), 14)
+  add_up_numbers([2, 3, 4, 5]), 14)
 
 # When you're done, move on to 035_mapping.py

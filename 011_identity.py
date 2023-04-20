@@ -1,56 +1,61 @@
-# Ignore this bit for now. It imports some helper code for
-# us.
-from lib.helpers import show_us_the_output_of
-
 # Video alternative: ...
 
 # Start reading here:
 
-def identity(num):
-    return num
+def just_return_it(num):
+  return num
 
 # This is a function. A function is a reusable block of
 # code.
-#
-# Think of functions as little machines. It takes an input,
-# processes it in some way, and then returns an output.
-#
-# This `identity` function has:
-#
-# * A name: `identity` that we can use to call it
-# * A parameter: `num` that it takes as input
-# * A body: `return num` that returns the input as output
-#
-# `identity` is a very simple function, it doesn't do very
-# much. It takes a piece of data as input, and returns it as
+
+# Think of a function as a little machine. It takes an
+# input, processes it in some way, and then returns an
 # output.
-#
-# Let's use it:
 
-print("identity(4) is:") # <-- This just prints a message
+# This `just_return_it` function has:
 
-show_us_the_output_of(  # <-- This helps us see the output of...
-    identity(4) # <-- This is the important part
-)
+# * A name: `just_return_it` that we can use to call it
 
-# @TASK: Run this program by opening the shell in the
-# right-hand panel and running:
+# * A parameter: `num` that it takes as input. You might
+#   also hear these informally referred to as 'arguments'
+
+# * A body: `return num` that returns the input as output.
+#   Python uses four spaces at the start of each line to
+#   indicate what's the body and what isn't
+
+# `just_return_it` is a very simple function, it doesn't do
+# very much. It takes a piece of data as input, and returns
+# it as output.
+
+# We call a function like this:
+
+just_return_it(4)
+# Returns 4
+
+# In the code above, the argument `4` goes into the
+# `just_return_it` function and takes the place of `num` in
+# the function body.
+
+# Want to see? Here, we can use `print` to show you:
+
+print("just_return_it(4) returns:")
+print(just_return_it(4))
+
+# @TASK: Run this program in the right-hand shell panel:
 #
-# ```
-# python 011_identity.py
-# ```
+#   python 011_identity.py
 #
-# If you don't see the shell, watch this video to to get set
-# up: @TODO
+# If you don't see the shell, watch this video: @TODO
 #
 # After running the command, you should see:
 #
 # ```
-# identity(4) is:
+# Calling just_return_it(4)
 # 4
 # ```
 #
-# This shows us that when we call the `identity` function
-# with the input parameter `4` — it gives us `4` back.
+# This shows us that when we call the `just_return_it`
+# function with the input parameter `4` — it gives us `4`
+# back.
 #
 # Now move on to 012_add_one.py

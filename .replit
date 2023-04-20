@@ -24,46 +24,6 @@ POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
 [unitTest]
 language = "python3"
 
-# Add a debugger!
-[debugger]
-support = true
-
-  # How to start the debugger.
-  [debugger.interactive]
-  transport = "localhost:0"
-  startCommand = ["dap-python", "main.py"]
-
-    # How to communicate with the debugger.
-    [debugger.interactive.integratedAdapter]
-    dapTcpAddress = "localhost:0"
-
-    # How to tell the debugger to start a debugging session.
-    [debugger.interactive.initializeMessage]
-    command = "initialize"
-    type = "request"
-
-      [debugger.interactive.initializeMessage.arguments]
-      adapterID = "debugpy"
-      clientID = "replit"
-      clientName = "replit.com"
-      columnsStartAt1 = true
-      linesStartAt1 = true
-      locale = "en-us"
-      pathFormat = "path"
-      supportsInvalidatedEvent = true
-      supportsProgressReporting = true
-      supportsRunInTerminalRequest = true
-      supportsVariablePaging = true
-      supportsVariableType = true
-
-    # How to tell the debugger to start the debuggee application.
-    [debugger.interactive.launchMessage]
-    command = "attach"
-    type = "request"
-
-      [debugger.interactive.launchMessage.arguments]
-      logging = {}
-
 # Configures the packager.
 [packager]
 language = "python3"

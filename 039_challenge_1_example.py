@@ -6,7 +6,7 @@
 # might be a little stronger if you do these extra
 # challenges.
 
-# Each challenges focuses on a new technique or approach. It
+# Each challenge focuses on a new technique or approach. It
 # starts with an example, and then leads into an exercise.
 
 # We'll start with combining filtering, mapping, and
@@ -61,8 +61,8 @@ def convert_negatives_to_positives(numbers):
       positive_integers.append(number)
   return positive_integers
 
-# Here we'll use summarising to create a graph of how
-# frequently each number shows up
+# Here we'll use dictionary summarising to create a graph of
+# how frequently each number shows up
 def calc_frequency_of_numbers(numbers):
   number_frequency = {}
   for number in numbers:
@@ -72,7 +72,8 @@ def calc_frequency_of_numbers(numbers):
       number_frequency[number] += 1
   return number_frequency
 
-# Here we'll use mapping to format the graph
+# Here we'll use summarising and mapping in the same loop to
+# format the graph.
 def format_graph(number_frequency):
   graph = ""
   for number in number_frequency:

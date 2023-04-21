@@ -40,7 +40,7 @@ def only_positive_numbers(numbers):
   pass
 
 check_that_these_are_equal(
-  only_positive_numbers([-4, 4, 0, -3, 3]), [4, 0, 3])
+  only_positive_numbers([-4, 4, -3, 3]), [4, 3])
 check_that_these_are_equal(
   only_positive_numbers([-100]), [])
 

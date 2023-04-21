@@ -4,8 +4,8 @@ from lib.helpers import check_that_these_are_equal
 
 # Here's a great use for dictionaries: counting!
 
-# For example, counting the number of each letter in a
-# string.
+# For example, counting how many times each letter appears
+# in a string.
 
 # We can use a for loop to iterate over some items, and then
 # use a dictionary to keep count of the items we've seen.
@@ -28,14 +28,16 @@ letter_counts = {}
 
 for letter in text:
   # We'll check if the letter is already in our dictionary
-  # of counts. We can do this using the `in` operator.
-  if letter in letter_counts:
-    # If it is, we'll increment the count for that letter:
-    letter_counts[letter] = letter_counts[letter] + 1
-  else:
+  # of counts. We can do this using the `not in` operator.
+  if letter not in letter_counts:
     # If it isn't, we'll add it to the dictionary with a
-    # count of 1:
+    # starting count of 1.
     letter_counts[letter] = 1
+    # Note that the syntax for assigning a value to a key in
+    # a dict is similar to assigning a variable.
+  else:
+    # If it is, we'll increment the count for that letter.
+    letter_counts[letter] = letter_counts[letter] + 1
 
 # Let's print out the dictionary to see what we've got:
 print(letter_counts)

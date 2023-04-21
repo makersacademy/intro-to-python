@@ -83,6 +83,11 @@ check_that_these_are_equal(
 )
 
 check_that_these_are_equal(
+  has_five_chars("FORGE"),
+  "FORGE is five characters long"
+)
+
+check_that_these_are_equal(
   has_five_chars("Nope"),
   "Not five characters"
 )

@@ -44,8 +44,8 @@ print(f"Your name is {len(my_name)} characters long")
 # number with a string. This is because f-strings in Python
 # perform that `str` conversion for us. Very handy!
 
-# f-strings are a form of what's called in programming
-# string interpolation.
+# f-strings are a form of what's called string
+# interpolation.
 
 # @TASK: Run this code using `python 025_string_concatenation.py`
 # to see what it does, and then move onto the exercise below.

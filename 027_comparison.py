@@ -3,7 +3,8 @@
 from lib.helpers import check_that_these_are_equal
 
 # We've seen the `==` comparison operator. There are some
-# others too.
+# others too. Each of them evaluates to True or False, which
+# is how the `if` knows whether to execute or not.
 
 # @TASK: Research by searching the web for "python
 # comparison operators" and complete the exercises below.
@@ -155,21 +156,21 @@ check_that_these_are_equal(
 # == Exercise Six ==
 
 print("")
-print("Function: a_contains_b")
+print("Function: check_that_these_are_equal")
 
 # May be a little tricky — search for
 # "python check if string contains substring"
-def a_contains_b(a, b):
+def check_that_these_are_equal(a, b):
   # return a ?? b
   pass
 
 check_that_these_are_equal(
-  a_contains_b("e", "hello"),
+  check_that_these_are_equal("e", "hello"),
   True
 )
 
 check_that_these_are_equal(
-  a_contains_b("f", "hello"),
+  check_that_these_are_equal("f", "hello"),
   False
 )
 

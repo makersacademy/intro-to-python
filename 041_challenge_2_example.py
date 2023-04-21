@@ -39,7 +39,7 @@ completed_board = [
 # 2. A function to make a move.
 # 3. A function to check if the game is over.
 
-# Let's start with the first one.
+# Let's start with formatting the board:
 
 def print_board(board):
   formatted_rows = []
@@ -132,7 +132,8 @@ def play_game():
   while not is_game_over(board):
     print(print_board(board))
     print("It's " + player + "'s turn.")
-    # input gets some text for the user to type in
+    # `input` asks the user to type in a string
+    # We then need to convert it to a number using `int`
     row = int(input("Enter a row: "))
     column = int(input("Enter a column: "))
     board = make_move(board, row, column, player)
@@ -143,11 +144,11 @@ def play_game():
   print(print_board(board))
   print("Game over!")
 
-# And test it out:
+# And try it out:
 
 print("Game time!")
 play_game()
 
-# @TASK Run this file to see the result.
+# @TASK Run this file to play the game.
 
 # Once you're done, move on to 042_challenge_2_exercise.py

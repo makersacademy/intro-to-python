@@ -2,7 +2,9 @@
 
 from lib.helpers import check_that_these_are_equal
 
-# Summarising is reducing a list to a single value.
+# Summarising is processing down a list to a single value.
+# It is sometimes also called 'reduce' — like reducing a
+# broth to a thick soup.
 
 # Here are some examples:
 
@@ -26,9 +28,9 @@ text = "" # This is called the accumulator variable
           # It starts off blank.
 
 for line in lines: # We go through lines item by item
-  # In this loop, `line` is the individual line
+  # Inside this loop, `line` is the individual line
   text = text + line # We append the line to our text
-  text = text + "\n" # We add an `\n`, which is a new line
+  text = text + "\n" # We add an `\n`, which means 'new line'
 
 print(text)
 
@@ -43,7 +45,7 @@ another_text = "\n".join(lines)
 # print(another_text)
 
 # `join` is actually little smarter — it only adds the `\n`
-# character between lines, not at the end.
+# character between lines, not at the end also.
 
 # @TASK: Complete this exercise
 

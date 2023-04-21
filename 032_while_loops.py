@@ -8,7 +8,7 @@ my_name = "Kay"
 if my_name == "Kay":
   print("Hello, Kay!")
 else:
-  print("Hello!")
+  print("Hello, you!")
 
 # The `if` is part of a category of programming tools known
 # as 'control flow'. These are tools that control the flow
@@ -20,7 +20,7 @@ else:
 
 # A while loop is perhaps the most simple:
 
-i = 0
+i = 0 # We call this the counter variable
 while i < 10:
   print(f"The number is now {i}")
   i = i + 1
@@ -31,14 +31,25 @@ while i < 10:
 # expression that evaluates to True or False, and then
 # executes its block of code if the condition is True.
 
-# However, the `while` loop is different in that it
-# repeats for as long as the condition is True.
+# However, the `while` loop is different in that it keeps
+# repeatedly executing the block for as long as the
+# condition is True.
+
+while True:
+  pass
 
 # @TASK: Here's an exercise where you can put it into
 # practice:
 
 print("")
 print("Function: add_cats_repeatedly")
+
+# Write a function that adds the item "cats" to the given
+# word_list, repeatedly, a number of times defined by the
+# given count parameter.
+# Example:
+#    add_cats_repeatedly([], 3)
+# => ['cats', 'cats', 'cats']
 
 def add_cats_repeatedly(word_list, count):
   # ...

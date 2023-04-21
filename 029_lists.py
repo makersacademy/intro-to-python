@@ -16,8 +16,12 @@
 my_favourite_numbers = [1, 3, 5, 7, 9]
 my_friends = ["Victoria", "Mel", "Melanie", "Emma"]
 
-# Notice how the square brackets tell Python that this is
-# a list, and the commas separate the items in the list.
+# Notice how the square brackets `[` and `]` tell Python
+# that this is a list, and how the commas separate the items
+# in the list.
+
+# It's common to forget these commas so add it to your list
+# of things to check when your code doesn't work.
 
 # @TASK Try making your own here:
 
@@ -26,6 +30,6 @@ print(your_list)
 
 # @TASK and print it out by running:
 
-# python 029_lists.py
+#   python 029_lists.py
 
 # When you're done, move on to 030_list_indexing.py

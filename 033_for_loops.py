@@ -1,7 +1,7 @@
 # Video alternative: ...
 
 # There's another kind of loop — the `for` loop.
-#
+
 # It looks like this:
 
 for letter in ["a", "b", "c"]:
@@ -38,15 +38,16 @@ def print_numbers_in_range_with_a_while():
 # The `for` and `range` version is a bit more concise.
 
 # You're probably expecting an exercise now. But not just
-# yet. Lists and loops are very powerful tools, and we're
+# yet. Lists and loops are very powerful tools and we're
 # going to go through three different ways of using them:
-#
+
 # * Summarising: Using a loop to distil a list into one
 #   value.
-#
+
 # * Mapping: Using a loop to convert each item to another
-#
-# * Filtering: Using a loop to select only some items from a
-#   list.
-#
+#   item.
+
+# * Filtering: Using a loop to pick out only some items from
+#   a list.
+
 # To start summarising, go to 034_summarising.py

@@ -2,8 +2,8 @@
 
 from lib.helpers import check_that_these_are_equal
 
-# As you may have noticed, while numeric operators evaluate
-# to numbers, like this:
+# As we've mentioned, while numeric operators evaluate to
+# numbers, like this:
 
 1 + 2 # evaluates to 3
 
@@ -12,8 +12,9 @@ from lib.helpers import check_that_these_are_equal
 1 == 2 # evaluates to False
 2 == 2 # evaluates to True
 
-# The `if` keyword just looks at whether the conditional
-# expression evaluates to True or False.
+# The `if` keyword looks at whether the conditional
+# expression evaluates to True or False to decide whether to
+# execute its block, or the else block.
 
 # We can use this information to combine conditions using a
 # new kind of operators: logical operators.
@@ -24,9 +25,9 @@ def starts_with_x_or_y(the_str):
   first_letter = the_str[0]
   #                      VV look at this!
   if first_letter == "x" or first_letter == "y":
-      return "It does!"
+    return "It does!"
   else:
-      return "It does not."
+    return "It does not."
 
 # That `or` operator says "evaluate to true if the condition
 # on the left, or on the right, or both evaluate to true".
@@ -38,7 +39,7 @@ def starts_with_x_or_y(the_str):
 
 # @TASK: Research by searching the web for "python
 # logical operators" and complete the exercises below.
-#
+
 # I've started it for you.
 
 print("")
@@ -80,4 +81,5 @@ def not_a(a):
 check_that_these_are_equal(not_a(True), False)
 check_that_these_are_equal(not_a(False), True)
 
-# When you're done, move on to 029_lists.py
+# Perhaps you could have guessed those... but now you know
+# for sure! When you're done, move on to 029_lists.py

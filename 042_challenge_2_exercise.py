@@ -37,6 +37,8 @@ def play_game():
   while not is_game_over(board):
     print(print_board(board))
     print("It's " + player + "'s turn.")
+    # `input` asks the user to type in a string
+    # We then need to convert it to a number using `int`
     row = int(input("Enter a row: "))
     column = int(input("Enter a column: "))
     board = make_move(board, row, column, player)

@@ -7,8 +7,8 @@ from lib.helpers import check_that_these_are_equal
 
 # == Length ==
 
-# Strings contain characters, and as such they have a length
-# too.
+# Strings contain characters. We can find the number of
+# characters a string has. This is called the length.
 
 # You can get the length using a function pre-loaded into
 # Python called `len`
@@ -21,7 +21,7 @@ print(f"The string is {length} characters long")
 # @TASK: Try it out yourself by changing the string "Hello!"
 # above, and then running this code with:
 #
-# python 024_string_length.py
+#   python 024_string_operations.py
 #
 # You'll see some other test output at the bottom. You can
 # ignore this until later in the exercise.
@@ -49,8 +49,8 @@ new_string = old_string.replace("YOUR_NAME", "Kay")
 
 my_string = "hello"
 
-len(my_string)
-my_string.replace("h", "w")
+len(my_string)              # <-- Independent Function
+my_string.replace("h", "w") # <-- Method Function
 
 # Why the difference? It's a little complicated.
 #

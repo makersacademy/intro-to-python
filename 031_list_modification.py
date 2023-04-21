@@ -14,30 +14,9 @@ print(my_list) # my_list is now ["a", "b", "c", "d"]
 # The effect is straightforward enough — it adds an item to
 # the list.
 
-# But there are two unusual aspects to this code.
+# But there is an unusual aspect to this code.
 
-# == Aspect One: Methods ==
-
-# When we looked at strings, our function looked like this:
-
-my_string = "hello!"
-len(my_string) # Evaluates to 6
-
-# Whereas this function looks like this:
-
-my_list = ["a", "b", "c"]
-my_list.append("d")
-
-# For `append` the function name comes after the variable
-# name. This is known as a 'method'. We would refer to
-# `append` as being called 'on' `my_list`.
-
-# Don't worry about it too much for now. Just remember that
-# some functions come after the variable name.
-
-# == Aspect Two: Mutation ==
-
-# Consider this code with numbers
+# Consider this code with numbers:
 
 my_num = 3
 3 + 1
@@ -55,9 +34,9 @@ print(my_list) # my_list is now ["a", "b", "c", "d"]
 # `my_list` gets magically changed without an assignment!
 
 # The behaviour of append is to modify the list 'in-place'.
-# Again, don't worry too much about this right now. If you
-# have any trouble with it, you can always create a new
-# list by using the `copy` method.
+# Don't worry too much about this right now. If you have any
+# trouble with it, you can always create a new list by using
+# the `copy` method.
 
 my_list = ["a", "b", "c"]
 my_copy = my_list.copy()
@@ -68,7 +47,7 @@ print(my_copy) # my_copy is now   ["a", "b", "c", "d"]
 # But mostly you won't need to worry about it just yet.
 
 # @TASK Do these exercises.
-#
+
 # You'll need to research the right methods to use. Here's
 # a useful resource: https://docs.python.org/3/tutorial/datastructures.html
 
@@ -95,6 +74,8 @@ def remove_item_from_list(the_list, item):
   # ...
   return the_list
 
+# If you have trouble here, make sure you're returning the
+# list after removing the item.
 check_that_these_are_equal(
   remove_item_from_list(['a', 'b'], 'b'), ['a'])
 check_that_these_are_equal(
@@ -108,6 +89,8 @@ print("Function: count_items_in_list")
 def count_items_in_list(the_list, item):
   return # ...
 
+# Whereas here you'll need to return the result of the
+# function you call, not the list.
 check_that_these_are_equal(
   count_items_in_list(['a', 'b', 'a'], 'a'), 2)
 check_that_these_are_equal(
@@ -146,7 +129,7 @@ print("")
 print("Function: list_length")
 
 # Note — it's the same as for strings!
-def list_length(list):
+def list_length(the_list):
   return # ...
 
 check_that_these_are_equal(

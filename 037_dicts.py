@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/zN-ymUZ2CPk&t=510s
 
 # Here are the data structures we've met so far:
 

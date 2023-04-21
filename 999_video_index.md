@@ -28,6 +28,10 @@ Here's an index of all of the videos in this material:
 * [032 While Loops](https://youtu.be/W8F1pmRu5G8&t=0s)
 * [033 For Loops](https://youtu.be/W8F1pmRu5G8&t=300s)
 * [034 Summarising](https://youtu.be/W8F1pmRu5G8&t=501s)
+* [035 Mapping](https://youtu.be/zN-ymUZ2CPk&t=0s)
+* [036 Filtering](https://youtu.be/zN-ymUZ2CPk&t=214s)
+* [037 Dictionaries](https://youtu.be/zN-ymUZ2CPk&t=510s)
+* [038 Dictionary Operations](https://youtu.be/zN-ymUZ2CPk&t=726s)
 
 Later videos are pending upload and will be posted here
 within the next day.

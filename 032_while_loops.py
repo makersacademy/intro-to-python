@@ -35,9 +35,6 @@ while i < 10:
 # repeatedly executing the block for as long as the
 # condition is True.
 
-while True:
-  pass
-
 # @TASK: Here's an exercise where you can put it into
 # practice:
 

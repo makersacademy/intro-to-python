@@ -11,7 +11,8 @@ if [[ "$@" == *"-i"* ]] || [[ "$@" == *"--interactive"* ]] || [[ "$@" == "" ]]; 
     echo
 
     $HOME/$REPL_SLUG/venv/bin/python $@
-else
+
+elif [[ "$@" == *"loops"* ]]; then
     timeout 5 $HOME/$REPL_SLUG/venv/bin/python $@
 
     if [[ $? == 124 ]]; then
@@ -24,5 +25,9 @@ else
         echo "Check that your condition is right, and that you're"
         echo -e "  adding 1 to your counter variable.${NC}"
     fi
+
+else
+    echo -e "${BLUE}If you need to force-quit this program, press Ctrl+C.${NC}"
+    $HOME/$REPL_SLUG/venv/bin/python $@
 fi
 

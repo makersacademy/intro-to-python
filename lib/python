@@ -9,17 +9,20 @@ if [[ "$@" == *"-i"* ]] || [[ "$@" == *"--interactive"* ]] || [[ "$@" == "" ]]; 
     echo -e "  ${NC}exit()${BLUE}"
     echo -e "Do the same thing if you run into weird errors.${NC}"
     echo
+
+    $HOME/$REPL_SLUG/venv/bin/python $@
+else
+    timeout 5 $HOME/$REPL_SLUG/venv/bin/python $@
+
+    if [[ $? == 124 ]]; then
+        echo -e "${BLUE}Your program took quite a while to run."
+        echo "So I've stopped it for you."
+        echo "You can try running it again if you like."
+        echo
+        echo "If you're on the 'while' material, you're probably"
+        echo "  causing an infinite loop."
+        echo "Check that your condition is right, and that you're"
+        echo -e "  adding 1 to your counter variable.${NC}"
+    fi
 fi
 
-timeout 5 $HOME/$REPL_SLUG/venv/bin/python $@
-
-if [[ $? == 124 ]]; then
-    echo -e "${BLUE}Your program took quite a while to run."
-    echo "So I've stopped it for you."
-    echo "You can try running it again if you like."
-    echo
-    echo "If you're on the 'while' material, you're probably"
-    echo "  causing an infinite loop."
-    echo "Check that your condition is right, and that you're"
-    echo -e "  adding 1 to your counter variable.${NC}"
-fi

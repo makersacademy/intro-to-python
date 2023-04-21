@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
 
 # So far you've spent a lot of time writing new programs.
 

@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
 
 # A string is a sequence of characters (letters).
 

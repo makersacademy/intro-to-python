@@ -19,9 +19,10 @@ def just_return_it(num):
 # * A parameter: `num` that it takes as input. You might
 #   also hear these informally referred to as 'arguments'
 
-# * A body: `return num` that returns the input as output.
-#   Python uses four spaces at the start of each line to
-#   indicate what's the body and what isn't
+# * A body: `return num` that processes the input and
+#   returns the result as output. Python uses spaces at the
+#   start of each line to indicate what's the body and what
+#   isn't
 
 # `just_return_it` is a very simple function, it doesn't do
 # very much. It takes a piece of data as input, and returns

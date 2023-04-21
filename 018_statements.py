@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/S14_jDPjXYg&t=460s
 
 # Now, let's look at statements. You've already seen a few
 # of these too:

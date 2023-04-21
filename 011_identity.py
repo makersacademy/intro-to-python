@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/FsDqswkr6NM
 
 # Start reading here:
 
@@ -52,7 +52,7 @@ print(just_return_it(4))
 # After running the command, you should see:
 #
 # ```
-# Calling just_return_it(4)
+# just_return_it(4) returns:
 # 4
 # ```
 #

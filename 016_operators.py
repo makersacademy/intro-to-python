@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/QapwWktcoxg&t=606s
 
 # So far you've seen very simple computations.
 # I'm going to show you how to perform more advanced ones.

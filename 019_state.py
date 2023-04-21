@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/S14_jDPjXYg&t=625s
 
 # Here's a mindbender for you:
 

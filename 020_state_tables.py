@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/S14_jDPjXYg&t=720s
 
 # Let's take a look at this program again.
 
@@ -10,8 +10,8 @@ print(f"b is {b}")
 
 # Python programs execute line by line, starting at the top.
 
-# We're going to go this code line by line and I'll explain
-# what's happening.
+# We're going to go through this code line by line and I'll
+# explain what's happening.
 
 # Initially the state is empty.
 

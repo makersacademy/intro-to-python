@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/QapwWktcoxg&t=322s
 
 # So far we've seen functions that take only one input. They
 # can actually take two, or even more, inputs. Take a look

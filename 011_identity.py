@@ -45,7 +45,8 @@ print(just_return_it(4))
 #
 #   python 011_identity.py
 #
-# If you don't see the shell, watch this video: @TODO
+# If you don't see the shell, watch this video:
+# https://youtu.be/c0GdcmPfKL4
 #
 # After running the command, you should see:
 #

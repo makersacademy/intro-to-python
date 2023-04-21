@@ -14,6 +14,11 @@ Here's an index of all of the videos in this material:
 * [018 Statements](https://youtu.be/S14_jDPjXYg&t=460s)
 * [019 State](https://youtu.be/S14_jDPjXYg&t=625s)
 * [020 State Tables](https://youtu.be/S14_jDPjXYg&t=720s)
+* [021 Two Step](https://youtu.be/QoSng0as5BY&t=0s)
+* [022 Strings](https://youtu.be/QoSng0as5BY&t=308s)
+* [023 String Indexing](https://youtu.be/QoSng0as5BY&t=410s)
+* [024 String Operations](https://youtu.be/QoSng0as5BY&t=760s)
+* [025 String Concatenation](https://youtu.be/QoSng0as5BY&t=1098s)
 
 Later videos are pending upload and will be posted here
 within the next day.

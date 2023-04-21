@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/W8F1pmRu5G8&t=300s
 
 # There's another kind of loop — the `for` loop.
 

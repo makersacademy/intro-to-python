@@ -25,6 +25,9 @@ Here's an index of all of the videos in this material:
 * [029 Lists](https://youtu.be/26diwnnEYJY&t=1027s)
 * [030 List Indexing](https://youtu.be/26diwnnEYJY&t=1171s)
 * [031 List Modification](https://youtu.be/26diwnnEYJY&t=1337s)
+* [032 While Loops](https://youtu.be/W8F1pmRu5G8&t=0s)
+* [033 For Loops](https://youtu.be/W8F1pmRu5G8&t=300s)
+* [034 Summarising](https://youtu.be/W8F1pmRu5G8&t=501s)
 
 Later videos are pending upload and will be posted here
 within the next day.

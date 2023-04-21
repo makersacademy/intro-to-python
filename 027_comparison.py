@@ -156,21 +156,21 @@ check_that_these_are_equal(
 # == Exercise Six ==
 
 print("")
-print("Function: check_that_these_are_equal")
+print("Function: a_is_within_b")
 
 # May be a little tricky — search for
 # "python check if string contains substring"
-def check_that_these_are_equal(a, b):
+def a_is_within_b(a, b):
   # return a ?? b
   pass
 
 check_that_these_are_equal(
-  check_that_these_are_equal("e", "hello"),
+  a_is_within_b("e", "hello"),
   True
 )
 
 check_that_these_are_equal(
-  check_that_these_are_equal("f", "hello"),
+  a_is_within_b("f", "hello"),
   False
 )
 

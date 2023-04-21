@@ -1,4 +1,4 @@
-# Video alternative: ...
+# Video alternative: https://youtu.be/JxLwSFfns_4
 
 # Hello! Welcome to programming. My name is Kay and I will
 # guide you through these early steps.
@@ -26,7 +26,7 @@
 # Chuang-tzu, it will take you many years to reach the
 # effortless skill of an expert programmer.
 #
-# But every programmer has sat where you have sat, curious
+# But every programmer has sat where you are sat, curious
 # and willing to learn. They have spent many hours getting
 # things wrong, being stuck, being confused. You will go
 # through this too.

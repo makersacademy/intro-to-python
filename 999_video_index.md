@@ -19,6 +19,12 @@ Here's an index of all of the videos in this material:
 * [023 String Indexing](https://youtu.be/QoSng0as5BY&t=410s)
 * [024 String Operations](https://youtu.be/QoSng0as5BY&t=760s)
 * [025 String Concatenation](https://youtu.be/QoSng0as5BY&t=1098s)
+* [026 Ifs](https://youtu.be/26diwnnEYJY&t=0s)
+* [027 Comparison](https://youtu.be/26diwnnEYJY&t=338s)
+* [028 Logic](https://youtu.be/26diwnnEYJY&t=760s)
+* [029 Lists](https://youtu.be/26diwnnEYJY&t=1027s)
+* [030 List Indexing](https://youtu.be/26diwnnEYJY&t=1171s)
+* [031 List Modification](https://youtu.be/26diwnnEYJY&t=1337s)
 
 Later videos are pending upload and will be posted here
 within the next day.

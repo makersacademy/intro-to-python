@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/26diwnnEYJY&t=1027s
 
 # When looking at strings, I mentioned the concept of data
 # structures.

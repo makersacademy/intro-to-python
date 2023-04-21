@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/26diwnnEYJY&t=1337s
 
 from lib.helpers import check_that_these_are_equal
 
@@ -19,7 +19,7 @@ print(my_list) # my_list is now ["a", "b", "c", "d"]
 # Consider this code with numbers:
 
 my_num = 3
-3 + 1
+my_num + 1
 print(my_num) # my_num is still 3
 
 # `my_num` stays `3` here because in the above code we're

@@ -32,6 +32,8 @@ Here's an index of all of the videos in this material:
 * [036 Filtering](https://youtu.be/zN-ymUZ2CPk&t=214s)
 * [037 Dictionaries](https://youtu.be/zN-ymUZ2CPk&t=510s)
 * [038 Dictionary Operations](https://youtu.be/zN-ymUZ2CPk&t=726s)
+* [039 Challenge 1 Example](https://youtu.be/qDWyR0XpJtQ&t=0s)
+* [040 Challenge 2 Exercise](https://youtu.be/qDWyR0XpJtQ&t=1295s)
 
 Later videos are pending upload and will be posted here
 within the next day.

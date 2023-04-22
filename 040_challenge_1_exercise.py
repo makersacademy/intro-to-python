@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/qDWyR0XpJtQ&t=1295s
 
 from lib.helpers import check_that_these_are_equal
 

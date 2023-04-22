@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/qDWyR0XpJtQ&t=0s
 
 # Congratulations! You've covered all of the key syntax,
 # concepts, and ideas necessary to succeed in your

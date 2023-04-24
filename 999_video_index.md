@@ -37,3 +37,8 @@ Here's an index of all of the videos in this material:
 
 Later videos are pending upload and will be posted here
 within the next day.
+
+Here's one further video if you'd like a demonstration of
+how to use [Codewars](https://www.codewars.com/):
+
+* [How to use Codewars](https://youtu.be/OGdhGv0KY3E)

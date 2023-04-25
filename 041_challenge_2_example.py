@@ -1,4 +1,4 @@
-# Video alternative: https://github.com/makersacademy/intro-to-python/blob/main/999_video_index.md
+# Video alternative: https://youtu.be/Y-6WZfJ9I6c&t=0s
 
 # Nice work on that last one! You might well want to
 # consider taking the assessment at this point.

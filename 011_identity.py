@@ -2,8 +2,8 @@
 
 # Start reading here:
 
-def just_return_it(num):
-  return num
+print("just_return_it(4) returns:")
+print(just_return_it(4))
 
 # This is a function. A function is a reusable block of
 # code.

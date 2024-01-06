@@ -1,3 +1,16 @@
+# Before you go any further:
+
+# Replit has added some AI tools! Pretty cool, but it might
+# interfere with your learning if the AI does your work for
+# you. To disable it, find the 'AI' button at the bottom of
+# the screen, click it, and then uncheck the check box next
+# to 'Enable'.
+
+# You're welcome to re-enable it if you want to try it out,
+# but keep it disabled when you're doing the exercises.
+
+# Now, back to where we were —
+
 # Video alternative: https://youtu.be/JxLwSFfns_4
 
 # Hello! Welcome to programming. My name is Kay and I will

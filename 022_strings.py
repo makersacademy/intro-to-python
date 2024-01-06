@@ -21,7 +21,7 @@ my_name = 'Kay'
 
 # Try out creating a string with your name in it:
 
-your_name = ???
+your_name = 'Veronica'
 print(your_name)
 
 # @TASK: Check your work by running this file with:

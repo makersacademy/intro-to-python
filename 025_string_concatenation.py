@@ -55,10 +55,11 @@ print(f"Your name is {len(my_name)} characters long")
 print("")
 print("Function: greet")
 
-def greet(name):
-	# Return the string "Hello, Kay!" where "Kay" is the
+def greet(Kay):
+	return (f"Hello, {Kay}!")
+  # Return the string "Hello, Kay!" where "Kay" is the
 	# name provided
-	pass
+	
 
 check_that_these_are_equal(
 	greet("Chuang-tzu"),

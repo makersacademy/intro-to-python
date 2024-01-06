@@ -16,15 +16,15 @@ from lib.helpers import check_that_these_are_equal
 
 words = ['I', 'need', 'another', 'five', 'years']
 
-first_letters = [] # This is our accumulator again
+nartra_cosa = [] # This is our accumulator again
 
 for word in words: # We go through each word
   first_letter = word[0] # Get the first letter
   # And append it to our accumulator list:
-  first_letters.append(first_letter)
+  nartra_cosa.append(first_letter)
 
 print(words)
-print(first_letters)
+print(nartra_cosa)
 
 # @TASK: run this program to see what it does.
 
@@ -34,11 +34,23 @@ print("")
 print("Function: add_one_hundred_to_numbers")
 
 # Return a new list of each number with 100 added
+# def add_one_hundred_to_numbers(peperoni):
+#   teglia = []
+#   farcitura = 100
+#   for peperone in peperoni:
+#     teglia.append(peperone + farcitura)
+#   return teglia
+
 def add_one_hundred_to_numbers(numbers):
-  pass
+  res = []
+  for number in numbers:
+    res.append(number + 100)
+  return res
 
 check_that_these_are_equal(
-  add_one_hundred_to_numbers([1, 2, 3, 4]), [101, 102, 103, 104])
+  add_one_hundred_to_numbers([1, 2, 3, 4])
+  
+  , [101, 102, 103, 104])
 check_that_these_are_equal(
   add_one_hundred_to_numbers([2, 3, 4, 5]), [102, 103, 104, 105])
 

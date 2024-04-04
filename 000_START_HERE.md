@@ -17,7 +17,7 @@ ideas will apply to any language.
 [Open up the replit space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
 
 Click the 'Fork' button on the right. This will open up the
-programming interface you will use to learn.
+programming interface you will use to learn
 
 If you're confident using your own local development setup
 and you have Python 3 installed, you can instead clone this

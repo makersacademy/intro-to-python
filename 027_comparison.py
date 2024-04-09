@@ -39,7 +39,7 @@ print("Function: a_is_less_than_b")
 
 def a_is_less_than_b(a, b):
   # Uncomment this next line and replace ?? with the right operator
-  # return a ?? b
+  # return a < b
   pass
 
 check_that_these_are_equal(
@@ -63,7 +63,7 @@ print("")
 print("Function: a_is_greater_than_b")
 
 def a_is_greater_than_b(a, b):
-  # return a ?? b
+  # return a > b
   pass
 
 check_that_these_are_equal(
@@ -87,7 +87,7 @@ print("")
 print("Function: a_is_less_than_or_equal_to_b")
 
 def a_is_less_than_or_equal_to_b(a, b):
-  # return a ?? b
+  # return a <= b
   pass
 
 check_that_these_are_equal(
@@ -111,7 +111,7 @@ print("")
 print("Function: a_is_greater_than_or_equal_to_b")
 
 def a_is_greater_than_or_equal_to_b(a, b):
-  # return a ?? b
+  # return a >= b
   pass
 
 check_that_these_are_equal(
@@ -135,7 +135,7 @@ print("")
 print("Function: a_is_not_equal_to_b")
 
 def a_is_not_equal_to_b(a, b):
-  # return a ?? b
+  # return a != b
   pass
 
 check_that_these_are_equal(
@@ -161,7 +161,7 @@ print("Function: a_is_within_b")
 # May be a little tricky — search for
 # "python check if string contains substring"
 def a_is_within_b(a, b):
-  # return a ?? b
+  # return a in b
   pass
 
 check_that_these_are_equal(

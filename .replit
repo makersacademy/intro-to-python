@@ -1,5 +1,5 @@
 # The command that runs the program. If the interpreter field is set, it will have priority and this run command will do nothing
-run = "bash lib/intro.sh"
+run = "bash -c 'source lib/intro.sh; bash'"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"

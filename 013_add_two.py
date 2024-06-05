@@ -10,6 +10,11 @@ from lib.helpers import check_that_these_are_equal
 # * Adds two to it
 # * Returns the result
 
+# ⚠️ If you see code magically appearing in your editor
+# before you type it — that's AI! Please disable it to
+# make sure it doesn't do your work for you.
+# Here's how: https://youtu.be/YHlWrWFQZC0
+
 # YOUR FUNCTION GOES BELOW THIS LINE
 
 

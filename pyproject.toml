@@ -10,6 +10,7 @@ numpy = "^1.22.2"
 replit = "^3.2.4"
 Flask = "^2.2.0"
 urllib3 = "^1.26.12"
+lib = "^4.0.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"

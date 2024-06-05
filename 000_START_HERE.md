@@ -14,10 +14,30 @@ ideas will apply to any language.
 > guide](https://youtu.be/c0GdcmPfKL4) to get set up.
 > Otherwise, keep reading below.
 
-[Open up the replit space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
+To get started:
 
-Click the 'Fork' button on the right. This will open up the
-programming interface you will use to learn.
+1. ✅ [Open up the replit
+   space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
+   **If you're reading this, you've already done this and you can move on to the
+   line below.**
+2. Click the 'Fork & Run' button on the right. This will open up the programming
+   interface you will use to learn.
+3. Sign up for a new replit account, or log in if you have one already.
+4. Replit will open this file again in your own account.
+5. After this, keep reading down the file for further instructions.
+
+⚠️ **If you encounter any 404 errors after you've signed up,** please follow
+this process:
+
+1. Sign up and sign in to replit. You can tell you are signed in because it
+   won't say 'Log in' in the top right.
+2. [Click this
+   link](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming).
+   Make sure you click it, don't just press the back button or assume you're on
+   it already.
+3. Click the green 'Fork & Run' button on the right.
+
+⚙️ **If you prefer to use your own local development setup**
 
 If you're confident using your own local development setup
 and you have Python 3 installed, you can instead clone this
@@ -82,9 +102,3 @@ assessment, but they might help.
 There are video alternatives for each file that you can
 follow along with. You can find them as a link at the top of
 each file.
-
-## I have some feedback about the material
-
-We would receive it with gratitude. [You can give us
-feedback
-here.](https://airtable.com/shrDOnkLFDkRiOHmU?prefill_Repository=IntroToProgramming)

@@ -102,3 +102,9 @@ assessment, but they might help.
 There are video alternatives for each file that you can
 follow along with. You can find them as a link at the top of
 each file.
+
+## I have some feedback about the material
+
+We would receive it with gratitude. [You can give us
+feedback
+here.](https://forms.gle/Vo76eDCGRrWngWkD7)

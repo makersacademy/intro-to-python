@@ -64,8 +64,8 @@ You may find the default replit theme hard to read. We have
 created two themes which combine good contrast and
 readability. I would recommend you use one of them:
 
-* [Makers Reader Theme (Light)](https://replit.com/theme/@neoeno/makers-reader)
-* [Makers Reader Theme (Dark)](https://replit.com/theme/@neoeno/makers-reader-dark)
+* [Makers Reader Theme (Light)](https://replit.com/theme/@training17/makers-reader)
+* [Makers Reader Theme (Dark)](https://replit.com/theme/@training17/makers-reader-dark)
 
 When you're done setting it up, it should look something like this:
 

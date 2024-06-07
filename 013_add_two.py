@@ -1,6 +1,6 @@
 from lib.helpers import check_that_these_are_equal
 
-# Video alternative: https://youtu.be/QapwWktcoxg&t=84s
+# Video alternative: https://vimeo.com/954334235/902b0b036d#t=84
 
 # Now you try. Here's an exercise for you:
 #

@@ -11,7 +11,7 @@ ideas will apply to any language.
 
 > **Note**  
 > If you like videos, follow this [replit video
-> guide](https://youtu.be/c0GdcmPfKL4) to get set up.
+> guide](https://vimeo.com/954334352/1f0dee9379) to get set up.
 > Otherwise, keep reading below.
 
 To get started:
@@ -57,7 +57,7 @@ You will need to engage with three parts of it:
 * The shell panel to the right, where you'll run code.
 
 To set up and learn how to use the interface, please follow
-the [replit IDE setup video](https://youtu.be/c0GdcmPfKL4).
+the [replit IDE setup video](https://vimeo.com/954334352/1f0dee9379).
 This video has subtitles.
 
 You may find the default replit theme hard to read. We have

@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/zN-ymUZ2CPk&t=510s
+# Video alternative: https://vimeo.com/954334322/c5a36d4407#t=510
 
 # Here are the data structures we've met so far:
 

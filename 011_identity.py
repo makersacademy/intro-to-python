@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/FsDqswkr6NM
+# Video alternative: https://vimeo.com/954334266/1ad4327868
 
 # Start reading here:
 
@@ -47,7 +47,7 @@ print(just_return_it(4))
 #   python 011_identity.py
 #
 # If you don't see the shell, watch this video:
-# https://youtu.be/c0GdcmPfKL4
+# https://vimeo.com/954334352/1f0dee9379
 #
 # After running the command, you should see:
 #

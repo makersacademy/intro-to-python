@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/qDWyR0XpJtQ&t=0s
+# Video alternative: https://vimeo.com/954334103/0aed500d39#t=0
 
 # Congratulations! You've covered all of the key syntax,
 # concepts, and ideas necessary to succeed in your

@@ -13,7 +13,7 @@
 
 # Now, back to where we were —
 
-# Video alternative: https://youtu.be/JxLwSFfns_4
+# Video alternative: https://vimeo.com/954334215/cbd70ba2fa
 
 # Hello! Welcome to programming. My name is Kay and I will
 # guide you through these early steps.

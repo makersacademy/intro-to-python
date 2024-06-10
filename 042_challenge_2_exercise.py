@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/Y-6WZfJ9I6c&t=1054s
+# Video alternative: https://vimeo.com/954334009/67af9910fc#t=1054
 
 # So far you've spent a lot of time writing new programs.
 

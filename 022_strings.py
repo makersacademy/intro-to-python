@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/QoSng0as5BY&t=308s
+# Video alternative: https://vimeo.com/954334279/dd2abfbdd7#t=308
 
 # A string is a sequence of characters (letters).
 

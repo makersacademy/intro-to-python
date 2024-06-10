@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/26diwnnEYJY&t=1027s
+# Video alternative: https://vimeo.com/954334163/bf61706e77#t=1027
 
 # When looking at strings, I mentioned the concept of data
 # structures.

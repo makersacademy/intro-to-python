@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/S14_jDPjXYg&t=0s
+# Video alternative: https://vimeo.com/954334376/0c486313d0#t=0
 
 # Now, let's look at expressions. You've actually already
 # seen them a lot!

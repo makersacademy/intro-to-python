@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/W8F1pmRu5G8&t=300s
+# Video alternative: https://vimeo.com/954334424/6e40d11ef1#t=300
 
 # There's another kind of loop — the `for` loop.
 

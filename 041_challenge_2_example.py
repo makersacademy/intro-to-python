@@ -1,4 +1,4 @@
-# Video alternative: https://youtu.be/Y-6WZfJ9I6c&t=0s
+# Video alternative: https://vimeo.com/954334009/67af9910fc#t=0
 
 # Nice work on that last one! You might well want to
 # consider taking the assessment at this point.

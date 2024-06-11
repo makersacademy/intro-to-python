@@ -1,1 +1,10 @@
 **/__pycache__
+venv/lib/**
+venv/bin/f2py
+venv/bin/flask
+venv/bin/normalizer
+venv/bin/pyflakes
+venv/bin/pylsp
+venv/bin/replit
+venv/bin/yapf
+venv/bin/yapf-diff

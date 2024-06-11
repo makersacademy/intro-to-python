@@ -6,7 +6,7 @@
 # the screen, click it, and then uncheck the check box next
 # to 'Enable'.
 
-# Here's a video that will show you how: https://youtu.be/YHlWrWFQZC0
+# Here's a video that will show you how: https://vimeo.com/956351893/f5a80a1c1b
 
 # You're welcome to re-enable it if you want to try it out,
 # but keep it disabled when you're doing the exercises.

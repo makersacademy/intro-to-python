@@ -13,7 +13,7 @@ from lib.helpers import check_that_these_are_equal
 # ⚠️ If you see code magically appearing in your editor
 # before you type it — that's AI! Please disable it to
 # make sure it doesn't do your work for you.
-# Here's how: https://youtu.be/YHlWrWFQZC0
+# Here's how: https://vimeo.com/956351893/f5a80a1c1b
 
 # YOUR FUNCTION GOES BELOW THIS LINE
 

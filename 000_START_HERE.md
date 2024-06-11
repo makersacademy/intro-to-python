@@ -17,7 +17,7 @@ ideas will apply to any language.
 To get started:
 
 1. ✅ [Open up the replit
-   space.](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming)
+   space.](https://replit.com/@Makers-Academy/The-Perfect-Crab-Introduction-to-Programming)
    **If you're reading this, you've already done this and you can move on to the
    line below.**
 2. Click the 'Fork & Run' button on the right. This will open up the programming
@@ -32,7 +32,7 @@ this process:
 1. Sign up and sign in to replit. You can tell you are signed in because it
    won't say 'Log in' in the top right.
 2. [Click this
-   link](https://replit.com/@neoeno/The-Perfect-Crab-Introduction-to-Programming).
+   link](https://replit.com/@Makers-Academy/The-Perfect-Crab-Introduction-to-Programming).
    Make sure you click it, don't just press the back button or assume you're on
    it already.
 3. Click the green 'Fork & Run' button on the right.

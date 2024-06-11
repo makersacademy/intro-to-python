@@ -3,6 +3,7 @@
 Here's an index of all of the videos in this material:
 
 * [IDE setup video](https://vimeo.com/954334352/1f0dee9379)
+* [Disabling Replit AI video](https://vimeo.com/956351893/f5a80a1c1b)
 * [010 Comments](https://vimeo.com/954334215/cbd70ba2fa)
 * [011 Identity](https://vimeo.com/954334266/1ad4327868)
 * [012 Add One](https://vimeo.com/954334235/902b0b036d#t=0)

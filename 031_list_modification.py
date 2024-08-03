@@ -53,12 +53,15 @@ print(my_copy) # my_copy is now   ["a", "b", "c", "d"]
 
 # I've started it for you.
 
-print("")
+print("append_item_to_list")
 print("Function: append_item_to_list")
 
 def append_item_to_list(the_list, item):
   the_list.append(item)
   return the_list
+
+def check_that_these_are_equal(actual, expected):
+    assert actual == expected, f"Expected {expected}, but got {actual}"
 
 check_that_these_are_equal(
   append_item_to_list(['a', 'b'], 'c'), ['a', 'b', 'c'])

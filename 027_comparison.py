@@ -11,11 +11,14 @@ from lib.helpers import check_that_these_are_equal
 #
 # I've started it for you.
 
-print("")
+print("a_is_equal_to_b")
 print("Function: a_is_equal_to_b")
 
 def a_is_equal_to_b(a, b):
   return a == b
+
+def a_is_equal_to_b(actual, expected):
+    assert actual == expected, f"Expected {expected}, but got {actual}"
 
 check_that_these_are_equal(
   a_is_equal_to_b(1, 1),

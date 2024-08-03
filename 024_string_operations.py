@@ -42,7 +42,7 @@ old_string = "Hello, YOUR_NAME!"
 new_string = old_string.replace("YOUR_NAME", "Kay")
 
 # Uncomment this next line to see the result
-# print(new_string)
+print(new_string)
 
 # You'll notice here that the function is coming in a
 # different place. Let's compare `len` and `replace`:
@@ -73,14 +73,14 @@ my_string.replace("h", "w") # <-- Method Function
 
 # == Exercise One ==
 
-print("")
+print("uppercase")
 print("Function: uppercase")
 
 # Search for 'python make string uppercase'
 
 def make_uppercase(string):
   # Return the string in uppercase
-  pass
+    assert actual == expected, f"Expected {expected}, but got {actual}"
 
 check_that_these_are_equal(
   make_uppercase("hello"), "HELLO")

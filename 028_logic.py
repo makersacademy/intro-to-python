@@ -14,7 +14,7 @@ from lib.helpers import check_that_these_are_equal
 
 # The `if` keyword looks at whether the conditional
 # expression evaluates to True or False to decide whether to
-# execute its block, or the else block.
+# execute ifs block, or the else block.
 
 # We can use this information to combine conditions using a
 # new kind of operators: logical operators.

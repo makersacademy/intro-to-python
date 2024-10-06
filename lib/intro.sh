@@ -1,7 +1,6 @@
 #!/bin/bash
 
 THIS_DIR="$(dirname -- "${BASH_SOURCE[0]}")"
-cp $THIS_DIR/.bashrc ~/.bashrc
 
 BLUE='\033[1;34m'
 RED='\033[1;31m'

@@ -20,7 +20,7 @@ To get started:
    space.](https://replit.com/@Makers-Academy/The-Perfect-Crab-Introduction-to-Programming)
    **If you're reading this, you've already done this and you can move on to the
    line below.**
-2. Click the 'Fork & Run' button on the right. This will open up the programming
+2. Click the 'Fork' button on the right. This will open up the programming
    interface you will use to learn.
 3. Sign up for a new replit account, or log in if you have one already.
 4. Replit will open this file again in your own account.
@@ -35,7 +35,7 @@ this process:
    link](https://replit.com/@Makers-Academy/The-Perfect-Crab-Introduction-to-Programming).
    Make sure you click it, don't just press the back button or assume you're on
    it already.
-3. Click the green 'Fork & Run' button on the right.
+3. Click the green 'Fork' button on the right.
 
 ⚙️ **If you prefer to use your own local development setup**
 

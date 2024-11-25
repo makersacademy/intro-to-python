@@ -47,14 +47,14 @@ print(note[0:3])
 
 # == Exercise One ==
 
-print("")
+print("get_first_letter")
 print("Function: get_first_letter")
 
 def get_first_letter(the_str):
   # Return the first letter of the string
-  pass
+  return(note[0:3])
 
-check_that_these_are_equal(
+def check_that_these_are_equal(
   get_first_letter("The king granted them"),
   "T"
 )
@@ -66,13 +66,17 @@ check_that_these_are_equal(
 
 # == Exercise Two ==
 
-print("")
+print("get_last_letter")
 print("Function: get_last_letter")
 
 def get_last_letter(the_str):
   # Return the last letter of the string
-  pass
+  return the_str[0]
 
+def check_that_these_are_equal(actual, expected):
+    assert actual == expected, f"Expected {expected}, but got {actual}"
+
+# Example usage and check
 check_that_these_are_equal(
   get_last_letter("The king granted them"),
   "m"

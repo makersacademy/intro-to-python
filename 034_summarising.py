@@ -49,16 +49,21 @@ another_text = "\n".join(lines)
 
 # @TASK: Complete this exercise
 
-print("")
+print("add_up_numbers")
 print("Function: add_up_numbers")
 
 # Add up all the numbers in the list
 def add_up_numbers(numbers):
-  pass
+  return word_list
+
+def check_that_these_are_equal(actual, expected):
+  assert actual == expected, f"Expected {expected}, but got {actual}"
 
 check_that_these_are_equal(
   add_up_numbers([1, 2, 3, 4]), 10)
 check_that_these_are_equal(
   add_up_numbers([2, 3, 4, 5]), 14)
+
+print("All checks passed.")
 
 # When you're done, move on to 035_mapping.py

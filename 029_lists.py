@@ -25,8 +25,8 @@ my_friends = ["Victoria", "Mel", "Melanie", "Emma"]
 
 # @TASK Try making your own here:
 
-your_list = ...
-print(your_list)
+my_favourite_thing_to_eat  = ["Rice", "Salmon", "Noodles", "Doughnuts"]
+print(my_favourite_thing_to_eat)
 
 # @TASK and print it out by running:
 

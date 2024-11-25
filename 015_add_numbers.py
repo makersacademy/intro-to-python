@@ -11,7 +11,11 @@ from lib.helpers import check_that_these_are_equal
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
+def add_numbers(num_a, num_b):
+  return num_a + num_b
 
+result = add_numbers(5, 3)
+print(result)
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE

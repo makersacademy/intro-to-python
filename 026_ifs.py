@@ -56,6 +56,9 @@ def is_first_of_the_month(day_number):
   # Return "Not first of the month" otherwise.
   pass
 
+def is_first_of_the_month(actual, expected):
+    assert actual == expected, f"Expected {expected}, but got {actual}"
+
 check_that_these_are_equal(
   is_first_of_the_month(1),
   "First of the month!"

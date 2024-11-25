@@ -18,12 +18,15 @@ my_list[1:3] # Evaluates to [35, 21]
 
 # == Exercise One ==
 
-print("")
+print("get_first_item")
 print("Function: get_first_item")
 
 def get_first_item(the_list):
   # Return the first item of the list
   pass
+
+def check_that_these_are_equal(actual, expected):
+    assert actual == expected, f"Expected {expected}, but got {actual}"
 
 check_that_these_are_equal(
   get_first_item(["a", "b", "c", "d", "e"]),
